@@ -1,0 +1,97 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  min-height: 100vh;
+  background: #0f172a;
+  padding: 40px;
+  color: white;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.dashboard-header p {
+  color: #94a3b8;
+  font-size: 1rem;
+}
+
+.add-job-btn {
+  background: linear-gradient(
+    135deg,
+    #6366f1,
+    #8b5cf6
+  );
+  color: white;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.add-job-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(99,102,241,.4);
+}
+
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background: #1e293b;
+  border-radius: 18px;
+  padding: 25px;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,.05);
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h2 {
+  font-size: 2rem;
+  color: #6366f1;
+  margin-bottom: 8px;
+}
+
+.stat-card span {
+  color: #cbd5e1;
+}
+
+.jobs-heading {
+  margin-bottom: 20px;
+}
+
+.jobs-heading h2 {
+  font-size: 1.8rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  gap: 24px;
+}
+
+.error {
+  background: #ef4444;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,140 @@
+.job-card {
+  background: #1e293b;
+
+  border-radius: 18px;
+
+  padding: 22px;
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 20px 35px rgba(0,0,0,0.35);
+}
+
+.card-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.card-header h3 {
+  color: white;
+
+  margin: 0;
+
+  font-size: 1.2rem;
+}
+
+.job-role {
+  color: #cbd5e1;
+
+  margin-bottom: 15px;
+}
+
+.deadline {
+  color: #94a3b8;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  margin-bottom: 20px;
+}
+
+/* Status Badges */
+
+.status {
+  padding: 6px 12px;
+
+  border-radius: 50px;
+
+  font-size: 0.8rem;
+
+  font-weight: 600;
+}
+
+.applied {
+  background: rgba(59,130,246,0.2);
+  color: #60a5fa;
+}
+
+.interview {
+  background: rgba(245,158,11,0.2);
+  color: #fbbf24;
+}
+
+.offer {
+  background: rgba(16,185,129,0.2);
+  color: #34d399;
+}
+
+.rejected {
+  background: rgba(239,68,68,0.2);
+  color: #f87171;
+}
+
+/* Buttons */
+
+.actions {
+  display: flex;
+
+  gap: 12px;
+}
+
+.edit-btn,
+.delete-btn {
+  flex: 1;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  border: none;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.edit-btn {
+  background: #6366f1;
+
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #4f46e5;
+}
+
+.delete-btn {
+  background: #ef4444;
+
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
